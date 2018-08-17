@@ -10,8 +10,8 @@ humandate: "Aug 27-28, 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-08-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-08-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Erin Becker, Kelly Rowland"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Erin Becker", "Kelly Rowland"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Aleksandra Taranov", "and TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["ebecker@carpentries.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2018-08-27-genentech           # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -206,13 +206,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <table class="table table-striped">
         <tr> <td>9 - 10:15am</td>  <td><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td> </tr>
         <tr> <td>10:15 - 10:30am</td> <td>Coffee Break</td></tr>
-        <tr> <td>10:30 - 11:45am</td> <td><a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a></td> </tr>
-        <tr> <td>11:45am - 12:30pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html">Getting Started with R</a></td> </tr>
-        <tr> <td>12:30pm - 1:30pm</td> <td>Lunch</td> </tr>
-        <tr> <td>1:30 - 3pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a></td> </tr>
-        <tr> <td>3:00 - 3:15pm</td> <td>Coffee Break</td></tr>
-        <tr> <td>3:15 - 3:45pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R (cont)</a></td> </tr>
-        <tr> <td>3:45pm - 4:30pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></td> </tr>
+        <tr> <td>10:30 - 12</td> <td><a href="http://www.datacarpentry.org/OpenRefine-ecology-lesson/">Data Cleaning with OpenRefine</a></td> </tr>
+        <tr> <td>12 - 1pm</td> <td>Lunch</td> </tr>
+        <tr> <td>1 - 1:45pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html">Getting Started with R</a></td> </tr>
+        <tr> <td>1:45 - 3:15pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R</a></td> </tr>
+        <tr> <td>3:15 - 3:30pm</td> <td>Coffee Break</td></tr>
+        <tr> <td>3:30 - 4:15pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Introduction to R (cont)</a></td> </tr>
+        <tr> <td>4:15 - 5pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></td> </tr>
     </table>
  
  
@@ -220,11 +220,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <table class="table table-striped">
         <tr> <td>9 - 10:30am</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html">Manipulating Data in R</a></td> </tr>
         <tr> <td>10:30 - 10:45am</td> <td>Coffee Break</td></tr>
-        <tr> <td>10:45 - 12:30pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Visualizing Data in R</a></td> </tr>
-        <tr> <td>12:30 - 1:30pm</td> <td>Lunch</td> </tr>
-        <tr> <td>1:30pm - 3pm</td> <td>Capstone: Working with Tabular Genomics Data in R</td> </tr>
+        <tr> <td>10:45 - 12:00pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Visualizing Data in R</a></td> </tr>
+        <tr> <td>12 - 1pm</td> <td>Lunch</td> </tr>
+        <tr> <td>1 - 1:30pm</td> <td><a href="http://www.datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Visualizing Data in R (cont)</a></td> </tr>
+        <tr> <td>1:30 - 3pm</td> <td>Capstone: Working with Tabular Genomics Data in R</td> </tr>
         <tr> <td>3 - 3:15pm</td> <td>Coffee Break</td></tr>
-        <tr> <td>3:15pm - 4:30pm</td> <td>Capstone: Working with Tabular Genomics Data in R (cont)</td> </tr>
+        <tr> <td>3:15 - 5pm</td> <td>Capstone: Working with Tabular Genomics Data in R (cont)</td> </tr>
     </table>
  </div>
 </div>
